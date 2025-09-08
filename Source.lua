@@ -11,9 +11,9 @@ local function SafeGetService(name)
 	return Reference(Service(game, name));
 end
 
-local mainName = 'Nameless Admin'
-local testingName = 'NA Testing'
-local adminName = 'NA'
+local mainName = 'Admin Miaw'
+local testingName = 'AM Testing'
+local adminName = 'AM'
 local connections = {}
 local HttpService=SafeGetService('HttpService');
 local Players=SafeGetService("Players");
@@ -90,7 +90,7 @@ local NAStuff = {
 }
 local interactTbl = { click = {}; proxy = {}; touch = {}; }
 local Notification = nil
-local inviteLink = "https://discord.gg/zzjYhtMGFD"
+local inviteLink = "https://discord.gg/dCwjjkpG"
 local cmd={}
 local NAmanage={}
 local searchIndex = {}
@@ -3750,7 +3750,8 @@ NAmanage.ESP_StartGlobal = function()
 	end))
 end
 
---[[local Signal1, Signal2 = nil, nil
+--[[ fly mobile]]
+local Signal1, Signal2 = nil, nil
 local flyMobile, MobileWeld = nil, nil
 
 function mobilefly(speed, vfly)
@@ -3791,7 +3792,7 @@ function mobilefly(speed, vfly)
 
 		if not flyMobile:FindFirstChildWhichIsA("Weld") then
 			MobileWeld = InstanceNew("Weld", flyMobile)
-			MobileWeld.Part0, MobileWeld.Part1, MobileWeld.C0 = flyMobile, newChar:FindFirstChildWhichIsA("Humanoid").RootPart, CFrame.new(0, 0, 0)
+			MobileWeld.Part0, MobileWeld.Part1, MobileWeld.C0 = Mobile, newChar:FindFirstChildWhichIsA("Humanoid").RootPart, CFrame.new(0, 0, 0)
 		else
 			MobileWeld.Part0, MobileWeld.Part1, MobileWeld.C0 = flyMobile, newChar:FindFirstChildWhichIsA("Humanoid").RootPart, CFrame.new(0, 0, 0)
 		end
@@ -3835,7 +3836,8 @@ function unmobilefly()
 	end
 	if Signal1 then Signal1:Disconnect() end
 	if Signal2 then Signal2:Disconnect() end
-end]]
+end
+--[[end mobile fly]]
 
 local tool
 if getChar() and getBp() then
