@@ -11,9 +11,9 @@ local function SafeGetService(name)
 	return Reference(Service(game, name));
 end
 
-local mainName = 'Admin Miaw'
-local testingName = 'AM Testing'
-local adminName = 'AM'
+local mainName = 'Miaw Team'
+local testingName = 'MT Testing'
+local adminName = 'Awy'
 local connections = {}
 local HttpService=SafeGetService('HttpService');
 local Players=SafeGetService("Players");
