@@ -60,7 +60,7 @@ We extend our gratitude to the original creator for laying the foundation of Nam
 Use the following loadstring to run the original version:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/refs/heads/main/Source"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Admin-Miaw/refs/heads/main/Source"))()
 ```
 
 ### Current Versions
@@ -68,18 +68,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Name
 **Main Version:**
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zabux/Admin-Miaw/main/Source.lua"))()
 ```
 
 **Testing Version:**
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/NA%20testing.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zabux/Admin-Miaw/main/NA%20testing.lua"))()
 ```
 
 ---
 
-Feel free to contribute or ask questions in our community channels. Enjoy using Nameless Admin!
+Feel free to contribute or ask questions in our community channels. Enjoy using Miaw Admin!
 
 
 ---
+
